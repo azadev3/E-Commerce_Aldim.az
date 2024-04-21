@@ -1,0 +1,97 @@
+.profile-user {
+  width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  position: relative;
+  overflow: hidden;
+
+  .sidebar {
+    margin-top: 2rem;
+    width: 20%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.075);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    .nav {
+      display: flex;
+      color: #303030;
+      width: 100%;
+      background-color: rgb(236, 233, 233);
+      margin-top: 1rem;
+      padding: 0.7rem 2rem;
+      transition: 0.1s all;
+      &:hover {
+        background-color: mediumslateblue;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .mehsullar {
+    overflow: auto;
+    z-index: 100;
+    width: 80%;
+    float: right;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .basketing {
+      position: relative;
+      top: 2rem;
+      width: 95%;
+      margin: 0 auto;
+      height: 10rem;
+      background-color: white;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.075);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .date{display: flex; flex-direction: column; align-items: center;
+        button {
+          color: white;
+          background-color: mediumslateblue;
+          border: none;
+          outline: none;
+          box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.300);
+          font-size: 1.2rem;
+          cursor: pointer;
+          border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+          text-transform: uppercase;
+          transition: 0.1s ease-out;
+          width: 12rem;
+          &:hover {
+               background-color: #ffffff;
+               color: green;}
+          &:active {
+               transform: translateY(0.1rem);}
+     }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}

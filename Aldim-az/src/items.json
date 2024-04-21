@@ -1,0 +1,72 @@
+{
+
+  
+  "Laptops": [
+    {
+      "id": 1,
+      "model": "Laptop Dell LATITUDE 5190",
+      "price": 849,
+      "image": "dell.png",
+      "properties": {
+        "color": "Silver",
+        "ram": "8GB",
+        "processor": "INTEL CORE i5 9th",
+        "storage": "250GB SSD",
+        "grapcard": "NVDIA GEFORCE 640GTx",
+        "windows": "Windows 11 x64"
+      }
+    }
+  ],
+
+  "Shoes": [
+    {
+      "id": 2,
+      "model": "Nike AIR JORDAN",
+      "price": 179,
+      "image": "bluejordan.png",
+      "warningMsg": "Ölçünü səhv seçtiyiniz halda malın geri qaytarılması mövcud deyil",
+      "properties": {
+        "color": "Göy, qırmızı, yaşıl",
+        "weight": "1.6kg",
+        "material": "Dəri",
+        "botstyle": "Boğazlı"
+      }
+    }
+  ],
+
+  "Jeans": [
+    {
+      "id": 3,
+      "model": "Defacto JEANS (for men)",
+      "price": 39,
+      "image": "jeans.png",
+      "warningMsg": "Ölçünü səhv seçtiyiniz halda malın geri qaytarılması mövcud deyil",
+      "properties": {
+        "color": "Sadəcə ekranda görülən rəng",
+        "weight": "1.6kg",
+        "material": "Pambıq"
+      }
+    }
+  ],
+
+
+  "Phones": [
+    {
+      "id": 4,
+      "weight": "940qr",
+      "model": "Iphone 13 PRO max (256GB)",
+      "price": 1299,
+      "image": "iphone.png",
+      "properties": {
+        "color": "Mediumgreen",
+        "ram": "6GB",
+        "processor": "A15 Bionic 3.22GhZ",
+        "storage": "256GB",
+        "system": "IOS"
+      }
+    }
+  ]
+
+
+}
+

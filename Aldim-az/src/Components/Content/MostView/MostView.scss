@@ -1,0 +1,109 @@
+.most-viewed {
+     width: 95%;
+     margin: 0 auto;
+     height: 25rem;
+     background-color: white;
+     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.150);
+     display: flex;
+     justify-content: center;
+     column-gap: 7%;
+
+     p{
+          text-decoration: underline;
+          text-align: center;
+          color: #303030;
+          font-size: 1rem;
+          padding: 0.5rem;
+          cursor: pointer;
+     }
+     h5 {
+          color: darkcyan;
+          font-weight: 700;
+          font-size: 1.7rem;
+     }
+     .card:hover {
+          transform: scale(1.05);
+          transition: 0.5s ease-out;
+     }
+
+     .nikeAirforce {
+          width: 15rem;
+          height: 20rem;
+          .card{
+               overflow: hidden;
+               img {width: 130%;}
+               width: 15rem;
+               height: 20rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               h5::before {
+                    content: '219azn';
+                    text-decoration: line-through;
+                    color: rgb(146, 59, 59);
+                    font-size: 1.3rem;
+               }
+          }
+     }
+
+     .jeans {
+          width: 15rem;
+          height: 20rem;
+          .card{
+               overflow: hidden;
+               img {width: 45%;}
+               width: 15rem;
+               height: 20rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               h5::before {
+                    content: '49azn';
+                    text-decoration: line-through;
+                    color: rgb(146, 59, 59);
+                    font-size: 1.3rem;
+               }
+          }
+     }
+
+     .iphone {
+          width: 15rem;
+          height: 20rem;
+          .card{
+               overflow: hidden;
+               img {width: 80%;}
+               width: 15rem;
+               height: 20rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               h5::before {
+                    content: '1599azn';
+                    text-decoration: line-through;
+                    color: rgb(146, 59, 59);
+                    font-size: 1.3rem;
+               }
+          }
+     }
+
+     .laptop {
+          width: 15rem;
+          height: 20rem;
+          .card{
+               overflow: hidden;
+               img {width: 89%;}
+               width: 15rem;
+               height: 20rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               h5::before {
+                    content: '999azn';
+                    text-decoration: line-through;
+                    color: rgb(146, 59, 59);
+                    font-size: 1.3rem;
+               }
+          }
+     }
+     
+}

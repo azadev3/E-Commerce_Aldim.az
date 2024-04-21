@@ -1,0 +1,68 @@
+.Header {
+  width: 100%;
+  height: 4rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid #cecece;
+
+  .header-left {
+    width: 15%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .header-center {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    .header-navlinks {
+      display: flex;
+      align-items: center;
+      margin: 1rem;
+      color: #303030;
+      font-weight: 500;
+      letter-spacing: -1px;
+      font-size: 1rem;
+      #links1,
+      #links2,
+      #links3,
+      #links4,
+      #links5,
+      #links6 {
+        color: #303030;
+        text-decoration: none;
+        transition: 0.1s ease-out;
+        display: inline-block;
+        cursor: pointer;
+        &:hover {
+          color: mediumslateblue;
+        }
+
+      }
+      
+
+    }
+  }
+
+  .header-right {
+    display: flex;
+    width: 15%;
+    .Register_Login_Items {
+      margin: 0.5rem;
+      #registerButton,
+      #loginButton {
+        text-decoration: none;
+        color: mediumslateblue;
+        letter-spacing: -0.5px;
+        font-weight: 500;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
